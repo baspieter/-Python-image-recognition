@@ -1,6 +1,5 @@
-import numpy as np
 import cv2
-import math
+# Exercise 1 show image
 
 def test1():
     img = cv2.imread('images/tek1.png')

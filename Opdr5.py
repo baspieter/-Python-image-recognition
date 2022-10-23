@@ -3,6 +3,7 @@ import sys
 import cv2 as cv
 import math
 np.set_printoptions(threshold=sys.maxsize)
+# Exercise 5 dobbelstenen
 
 def displayImage(image):
     cv.namedWindow('image')

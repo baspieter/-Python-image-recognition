@@ -1,6 +1,5 @@
-import numpy as np
 import cv2 as cv
-import math
+# Exercise 2 Video capture
 
 def videoCapture():
     cap = cv.VideoCapture(0)

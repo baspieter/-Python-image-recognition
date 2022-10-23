@@ -1,6 +1,7 @@
 import numpy as np
 import cv2 as cv
 import math
+# Exercise 4 bouten en moeren
     
 def showBouten():
     img = cv.imread('images/bouten_moeren1.jpg')
