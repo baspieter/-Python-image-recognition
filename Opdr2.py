@@ -8,7 +8,7 @@ def videoCapture():
         gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
         cv.imshow('frame', gray)
 
-        # Close window with Q after one second.
+        # Close window with Q.
         if cv.waitKey(1) & 0xFF == ord('q'):
             break
     cap.release()
