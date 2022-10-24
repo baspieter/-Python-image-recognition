@@ -3,10 +3,12 @@ import cv2 as cv
 
 def videoCapture():
     cap = cv.VideoCapture(0)
-    while(True):
+    while True:
         ret, frame = cap.read();
         gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
         cv.imshow('frame', gray)
+
+        # Close window with Q after one second.
         if cv.waitKey(1) & 0xFF == ord('q'):
             break
     cap.release()
